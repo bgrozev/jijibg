@@ -1,0 +1,6 @@
+org/jitsi/jijibg/Jijibg.class
+org/jitsi/jijibg/Main.class
+org/jitsi/jijibg/Jijibg$UdpListenerImpl.class
+org/jitsi/jijibg/PortManager.class
+org/jitsi/jijibg/Session.class
+org/jitsi/jijibg/TcpListenerImpl.class
