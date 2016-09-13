@@ -15,6 +15,7 @@ public class Jijibg
 {
     private static int UDP_LISTEN_PORT = 10000;
     private static int TCP_LISTEN_PORT = 4443;
+    // The port on which jitsi-videobridge listens
     private static int SERVER_PORT = 10000;
 
     private final TcpListenerImpl tcpListener;
@@ -110,14 +111,6 @@ public class Jijibg
     private class UdpListenerImpl
         extends AbstractUdpListener
     {
-        /**
-         * Initializes a new <tt>SinglePortUdpHarvester</tt> instance which is to
-         * bind
-         * on the specified local address.
-         *
-         * @param localAddress the address to bind to.
-         * @throws IOException if initialization fails.
-         */
         UdpListenerImpl(TransportAddress localAddress)
             throws IOException
         {

@@ -14,7 +14,7 @@ public class Main
 
         try
         {
-            Thread.sleep(3600 * 1000);
+            Thread.sleep(3600 * 100000);
         }
         catch (Exception e)
         {}
