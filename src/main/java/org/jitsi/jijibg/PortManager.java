@@ -1,7 +1,6 @@
 package org.jitsi.jijibg;
 
 import java.util.*;
-import java.util.concurrent.*;
 
 /**
  * @author Boris Grozev
