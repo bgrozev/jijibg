@@ -1,0 +1,8 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	mvn install
+	tar zxvf target/jijibg-1.0-SNAPSHOT-bin.tar.gz -C target
