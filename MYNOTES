@@ -1,0 +1,2 @@
+postinstall -> create user, group, jitsi-meet-web-config.postinst -> depend on authbind, authbind suff
+license

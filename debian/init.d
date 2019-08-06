@@ -30,7 +30,7 @@ LOGFILE=/var/log/jitsi/jijibg.log
 #DAEMON_OPTS=" --host=$JVB_HOST --domain=$JVB_HOSTNAME --port=$JVB_PORT --secret=$JVB_SECRET $JVB_OPTS"
 DAEMON_OPTS=""
 
-test -x $DAEMON || exit 0
+test -mucClientManager $DAEMON || exit 0
 
 set -e
 
